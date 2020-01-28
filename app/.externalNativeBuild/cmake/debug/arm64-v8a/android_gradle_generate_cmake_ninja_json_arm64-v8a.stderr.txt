@@ -31,9 +31,9 @@ CMake Error at /Users/kaco/Library/Android/sdk/cmake/3.6.4111459/share/cmake-3.6
 
   Run Build
   Command:"/Users/kaco/Library/Android/sdk/cmake/3.6.4111459/bin/ninja"
-  "cmTC_4919e"
+  "cmTC_8c4f1"
 
-  [1/2] Building C object CMakeFiles/cmTC_4919e.dir/testCCompiler.c.o
+  [1/2] Building C object CMakeFiles/cmTC_8c4f1.dir/testCCompiler.c.o
 
   FAILED:
   /Users/kaco/Library/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64/bin/clang
@@ -44,7 +44,7 @@ CMake Error at /Users/kaco/Library/Android/sdk/cmake/3.6.4111459/share/cmake-3.6
   -D__ANDROID_API__=24 -g -DANDROID -ffunction-sections -funwind-tables
   -fstack-protector-strong -no-canonical-prefixes -Wa,--noexecstack -Wformat
   -Werror=format-security -fPIE -o
-  CMakeFiles/cmTC_4919e.dir/testCCompiler.c.o -c
+  CMakeFiles/cmTC_8c4f1.dir/testCCompiler.c.o -c
   /Users/kaco/Desktop/circleci_test_aos_ver2/app/.externalNativeBuild/cmake/debug/arm64-v8a/CMakeFiles/CMakeTmp/testCCompiler.c
 
 
