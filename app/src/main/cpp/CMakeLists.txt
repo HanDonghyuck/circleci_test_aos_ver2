@@ -19,8 +19,8 @@ add_library( # Sets the name of the library.
         # Provides a relative path to your source file(s).
         native-lib.cpp
         detect_image_quality.cpp
-        detect_verification_mobile.cpp
-        detect_nostrildetection.cpp
+        #detect_verification_mobile.cpp
+        #detect_nostrildetection.cpp
         )
 include_directories(src/main/cpp/include/)
 # Searches for a specified prebuilt library and stores the path as a
@@ -48,11 +48,13 @@ set_target_properties(
         IMPORTED_LOCATION
         #/Users/dk/Documents/OpenCV-android-sdk/sdk/native/libs/${ANDROID_ABI}/libopencv_java3.so
         #C:/Users/fitpet/Documents/GitHub/Detect_aos_camera/app/src/main/JniLibs/${ANDROID_ABI}/libopencv_java3.so
-        /Users/kaco/Documents/Fitpet/Detect/AndroidProj/Detect_aos_camera/app/src/main/JniLibs/${ANDROID_ABI}/libopencv_java3.so
+        #/Users/kaco/Documents/Fitpet/Detect/AndroidProj/Detect_aos_camera/app/src/main/JniLibs/${ANDROID_ABI}/libopencv_java3.so
+        /Users/kaco/Desktop/circleci_test_aos_ver2/app/src/main/JniLibs/${ANDROID_ABI}/libopencv_java3.so
 )
 # include_directories(/Users/dk/Documents/OpenCV-android-sdk/sdk/native/jni/include)
 #include_directories(D:/opencv/opencv_build/install/include)
-include_directories(/Users/kaco/Documents/Fitpet/Detect/AndroidProj/opencv_build/install/include)
+#include_directories(/Users/kaco/Documents/Fitpet/Detect/AndroidProj/opencv_build/install/include)
+include_directories(/Users/kaco/Desktop/AndroidDetectProj/opencv_build/install/include)
 
 # Specifies libraries CMake should link to your target library. You
 # can link multiple libraries, such as libraries you define in this
