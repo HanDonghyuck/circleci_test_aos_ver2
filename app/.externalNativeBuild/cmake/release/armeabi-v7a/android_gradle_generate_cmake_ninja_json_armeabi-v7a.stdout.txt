@@ -1,3 +1,5 @@
--- Configuring done
--- Generating done
--- Build files have been written to: /Users/kaco/Documents/Fitpet/Detect/AndroidProj/search_Detect/Detect_aos_camera-develop/app/.externalNativeBuild/cmake/release/armeabi-v7a
+-- Check for working C compiler: /Users/kaco/Library/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64/bin/clang
+-- Check for working C compiler: /Users/kaco/Library/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64/bin/clang -- broken
+-- Configuring incomplete, errors occurred!
+See also "/Users/kaco/Desktop/circleci_test_aos_ver2/app/.externalNativeBuild/cmake/release/armeabi-v7a/CMakeFiles/CMakeOutput.log".
+See also "/Users/kaco/Desktop/circleci_test_aos_ver2/app/.externalNativeBuild/cmake/release/armeabi-v7a/CMakeFiles/CMakeError.log".

@@ -1,0 +1,9 @@
+Determining if the C compiler works failed with the following output:
+Change Dir: /Users/kaco/Desktop/circleci_test_aos_ver2/app/.externalNativeBuild/cmake/release/x86_64/CMakeFiles/CMakeTmp
+
+Run Build Command:"/Users/kaco/Library/Android/sdk/cmake/3.6.4111459/bin/ninja" "cmTC_4c47c"
+[1/2] Building C object CMakeFiles/cmTC_4c47c.dir/testCCompiler.c.o
+FAILED: /Users/kaco/Library/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64/bin/clang  --target=x86_64-none-linux-android --gcc-toolchain=/Users/kaco/Library/Android/sdk/ndk-bundle/toolchains/x86_64-4.9/prebuilt/darwin-x86_64 --sysroot=/Users/kaco/Library/Android/sdk/ndk-bundle/sysroot   -isystem /Users/kaco/Library/Android/sdk/ndk-bundle/sysroot/usr/include/x86_64-linux-android -D__ANDROID_API__=24 -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -Wa,--noexecstack -Wformat -Werror=format-security   -fPIE -o CMakeFiles/cmTC_4c47c.dir/testCCompiler.c.o   -c /Users/kaco/Desktop/circleci_test_aos_ver2/app/.externalNativeBuild/cmake/release/x86_64/CMakeFiles/CMakeTmp/testCCompiler.c
+ninja: build stopped: subcommand failed.
+
+

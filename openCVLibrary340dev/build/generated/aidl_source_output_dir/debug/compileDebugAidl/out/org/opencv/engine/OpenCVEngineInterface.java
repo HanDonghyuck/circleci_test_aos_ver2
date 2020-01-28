@@ -1,6 +1,6 @@
 /*
  * This file is auto-generated.  DO NOT MODIFY.
- * Original file: /Users/kaco/Documents/Fitpet/Detect/AndroidProj/search_Detect/Detect_aos_camera-develop/openCVLibrary340dev/src/main/aidl/org/opencv/engine/OpenCVEngineInterface.aidl
+ * Original file: /Users/kaco/Desktop/circleci_test_aos_ver2/openCVLibrary340dev/src/main/aidl/org/opencv/engine/OpenCVEngineInterface.aidl
  */
 package org.opencv.engine;
 /**

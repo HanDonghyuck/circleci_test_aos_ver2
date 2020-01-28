@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/.idea/Detect_aos_camera-develop.iml" filepath="$PROJECT_DIR$/.idea/Detect_aos_camera-develop.iml" />
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/circleci_test_aos_ver2.iml" filepath="$PROJECT_DIR$/circleci_test_aos_ver2.iml" />
       <module fileurl="file://$PROJECT_DIR$/openCVLibrary340dev/openCVLibrary340dev.iml" filepath="$PROJECT_DIR$/openCVLibrary340dev/openCVLibrary340dev.iml" />
     </modules>
   </component>
