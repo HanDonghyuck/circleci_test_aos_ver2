@@ -1,14 +1,13 @@
 version: 2
 jobs:
   build:
-    working_directory: ~/code
+    working_directory: ~/circleci_test_aos_ver2
     docker:
       - image: circleci/android:api-25-alpha
       - image: bitriseio/android-ndk:latest
     environment:
       ANDROID_HOME: /Users/kaco/Library/Android/sdk
       ANDROID_NDK_HOME: /Users/kaco/Library/Android/sdk/ndk-bundle
-      PATH: $PATH: /Users/kaco/Library/Android/sdk/ndk-bundle
       JVM_OPTS: -Xmx3200m
     steps:
       - checkout
