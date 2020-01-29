@@ -4,9 +4,10 @@ jobs:
     working_directory: ~/code
     docker:
       - image: circleci/android:api-25-alpha
-      - image: circleci/openjdk:8-jdk
       - image: bitriseio/android-ndk:latest
     environment:
+      ANDROID_HOME: /Users/kaco/Library/Android/sdk
+      ANDROID_NDK_HOME: /Users/kaco/Library/Android/sdk/ndk-bundle
       JVM_OPTS: -Xmx3200m
     steps:
       - checkout
